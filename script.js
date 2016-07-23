@@ -39,7 +39,7 @@ function checkWin(){
 	var pic4 = img4.getAttribute("pic");
 	 console.log(pic1,pic2,pic3,pic4);		
 	if (pic1==pic2 && pic2==pic3 && pic3==pic4){
-		console.log("won");
+		console.log("won!");
 		return true;
 	}
 }	
